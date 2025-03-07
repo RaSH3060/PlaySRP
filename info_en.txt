@@ -1,0 +1,51 @@
+Guide to Using PlaySRP for Steam Remote Play
+
+1. Installation
+
+Place the PlaySRP.exe file in the game’s folder within your Steam directory (e.g., D:\Games\Steam\steamapps\common\Game\).
+Rename PlaySRP.exe to match the game’s executable name (e.g., Game.exe).
+Create a text file named play.ini in the same folder.
+
+2. Configuring play.ini
+
+Format:
+play|Full_Path_To_File|Parameters|Custom_Name
+
+Examples:
+
+play|C:\Program Files\MyGame\game.exe|-windowed|My Game  
+play|D:\Games\Best game\bin\game.exe||CoolGame  
+
+
+Drag-and-Drop:
+Drag any .exe file onto PlaySRP.exe to automatically add its path to play.ini .
+
+3. Adding Launch Parameters
+
+Right-click the game entry in PlaySRP → select Edit Parameters .
+Enter the desired parameter in the window (e.g., -windowed).
+
+4. Launching Programs
+
+Run the renamed PlaySRP.exe via Steam.
+Select a program from the list → click Play .
+
+5. Features
+
+Steam Overlay works universally (activate with Shift+Tab ).
+Remote Play :
+Screen sharing and control for other players.
+Compatibility depends on the application:
+The replaced app must support Steam Remote Play.
+
+Examples:
+
+Cube Racer — No (supports but doesn’t work, exceptions exist).
+Mini Thief — Yes.
+Half-Life 2 — Yes.
+
+6. Troubleshooting
+
+Launch Errors:
+Verify the path in play.ini is correct.
+Ensure the file exists.
