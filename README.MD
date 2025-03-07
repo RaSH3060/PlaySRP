@@ -48,8 +48,7 @@ Works by replacing a Steam game's (donor) executable file with PlaySRP.exe while
 **Developer:** [RaSH](https://github.com/RaSH3060)  
 
 ## License 📄  
-MIT License
-
+[MIT License](https://github.com/RaSH3060/PlaySRP/blob/main/LICENSE)
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -104,4 +103,4 @@ PlaySRP позволяет запускать **любые внешние при
 **Разработчик:** [RaSH](https://github.com/RaSH3060)  
 
 ## Лицензия 📄  
-MIT License
+[MIT License](https://github.com/RaSH3060/PlaySRP/blob/main/LICENSE)
